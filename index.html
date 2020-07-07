@@ -5,8 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>React JS 101</title>
 		<link rel="stylesheet" href="./src/dist/reveal.css" />
-		<link rel="stylesheet" href="./src/dist/theme/black.css" />
+		<link rel="stylesheet" href="./src/dist/theme/night.css" />
 		<link rel="stylesheet" href="./src/plugin/highlight/monokai.css" />
+		<link rel="stylesheet" type="text/css" href="./src/css/style.css"/>
 	</head>
 	<body>
 		<div class="reveal">
@@ -20,10 +21,37 @@
 				></section>
 
 				<!-- CSS -->
-				<section>CSS</section>
+				<section
+					data-markdown="./docs/2_css.md"
+					data-separator-vertical="^\r?\n--\r?\n$"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15"
+				></section>
 
 				<!-- JS -->
-				<section>Javascript</section>
+				<section
+					data-markdown="./docs/3_js.md"
+					data-separator-vertical="^\r?\n--\r?\n$"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15"
+				></section>
+
+				<!-- React JS -->
+				<section
+					data-markdown="./docs/4_react.md"
+					data-separator-vertical="^\r?\n--\r?\n$"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15"
+				></section>
+				
+				<!-- Credits -->
+				<section
+					data-markdown="./docs/CREDITS.md"
+					data-separator-vertical="^\r?\n--\r?\n$"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15"
+				></section>
+				
 			</div>
 		</div>
 		<script src="./src/dist/reveal.js"></script>
