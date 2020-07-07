@@ -38,7 +38,7 @@ CSS Anatomy
 
 --
 
-![CSS Selector](../src/img/css_selector.png)
+![CSS Selector](../src/img/css_selector.PNG)
 
 --
 
